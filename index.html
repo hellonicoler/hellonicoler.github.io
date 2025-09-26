@@ -76,8 +76,42 @@
       font-size: 0.95em;
       line-height: 1.4;
     }
-  </style>
-</head>
+.card-link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link {
+  background: #fff8f0;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-link:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card-content h3 {
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
+.card-content p {
+  font-size: 0.95em;
+  margin: 10px 0;
+}
+
+.card-content span {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ff8fa3;
+}    
+head>
 <body>
   <div class="container">
     <div class="accent">☕ ✍️</div>
@@ -97,6 +131,16 @@
         <p>Read my latest articles on writing, creativity, and consistency — over 50 published in the last few months!</p>
       </a>
     </div>
+    <div class="card-link">
+  <a href="https://YOURUSERNAME.github.io/writer-progress-dashboard/" target="_blank">
+    <div class="card-content">
+      <h3>📚 Writer Tracker</h3>
+      <p>Track your projects, word count, and progress—cute and interactive!</p>
+      <span>✨ Open Tracker</span>
+    </div>
+  </a>
+</div>
+
   </div>
 </body>
 </html>
